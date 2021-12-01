@@ -66,9 +66,9 @@
     <p></p>
     <p></p>
     <p></p>
-    <div class="container-fluid text-left" style="height: 450">
-    <div class="row">
-        <div class="col-sm">
+    <div class="container-fluid text-left">
+    <div class="row" style="heigth: 450px">
+        <div class="col-sm" >
         <div class="jumbotron bg-warning">
             <h2><b>Piramis Italkereskedés Nonprofit Kft. </b></h2>
             <p></p>
@@ -82,7 +82,7 @@
         </div>
         </div>
         <div class="col-sm">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.482601487894!2d21.63343151487606!3d47.538935300644276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470dddd24d1f07%3A0xb10b546d3675aef1!2sDebrecen%2C%20Ny%C3%ADl%20u.%20118%2C%204028!5e0!3m2!1shu!2shu!4v1638369295787!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.482601487894!2d21.63343151487606!3d47.538935300644276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470dddd24d1f07%3A0xb10b546d3675aef1!2sDebrecen%2C%20Ny%C3%ADl%20u.%20118%2C%204028!5e0!3m2!1shu!2shu!4v1638369295787!5m2!1shu!2shu" width="650" height="390" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         
     </div>
     </div> 
