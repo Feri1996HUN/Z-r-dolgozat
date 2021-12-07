@@ -25,12 +25,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
+<body>
 
 <!-- Jumbotron fejléc -->
 
 <body style="background-color:red;">
-    <div class="container-fluid text-center" style="heigth: 500px">
-        <div class="jumbotron bg-warning" >
+    <div class="container-fluid text-center">
+        <div class="jumbotron bg-warning">
             <h1><b>PIRAMIS ITALKERESKEDÉS</b></h1>
 
             <!-- MENÜ -->
@@ -74,20 +75,20 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active" data-interval="2000">
-      <img src="pir1vagott1.jpg" class="d-block w-100" alt="..." width="80%" height="400px">
+      <img src="pir3szerk.jpg" class="d-block w-100">
     </div>
     <div class="carousel-item" data-interval="2000">
-      <img src="pir3.jpg" class="d-block w-100" alt="..." width="80%" height="400px">
+      <img src="pir3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-interval="2000">
-      <img src="pir2.png" class="d-block w-100" width="80%" height="400px" alt="...">
+      <img src="" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" style="width: 5%" data-target="#carouselExampleIndicators" data-slide="prev">
+  <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Előző</span>
   </button>
-  <button class="carousel-control-next" type="button" style="width: 5%" data-target="#carouselExampleIndicators" data-slide="next">
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Következő</span>
   </button>
