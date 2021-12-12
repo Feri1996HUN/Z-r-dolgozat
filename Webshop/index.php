@@ -19,82 +19,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webshop</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<!-- Fejlléc -->
+<div class="fejlec">
 
-<!-- Jumbotron fejléc -->
+<!-- Konténer -->
+<div class="kontenerfejlec">
 
-<body style="background-color:red;">
-    <div class="container-fluid text-center">
-        <div class="jumbotron bg-warning">
-            <h1><b>PIRAMIS ITALKERESKEDÉS</b></h1>
-
-            <!-- MENÜ -->
-
-            <p><nav class="navbar navbar-expand-lg navbar-light bg-warning">
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                        MENÜ
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item disabled" href="index.php">Főoldal</a>
-                        <a class="dropdown-item" href="kapcsolat.php">Kapcsolat</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="webshop.php">WEBSHOP</a>
-                        <a class="dropdown-item" href="regiszt.php">Bejelentkezés/Regisztráció</a>
-
-                    </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Kosár:</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="kosar" name="kosar">0</a>
-                    </li>
-                </ul>
-                </div>
-            </nav></p>
-        </div> 
-    </div>
-
-    <!-- CAROUSEL -->
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-interval="2000">
-      <img src="pir3szerk.jpg" class="d-block w-100">
-    </div>
-    <div class="carousel-item" data-interval="2000">
-      <img src="pir3.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-interval="2000">
-      <img src="" class="d-block w-100" alt="...">
-    </div>
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">
+    <img src="kepek/pirlogo1.png" width="125px">
   </div>
-  <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Előző</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Következő</span>
-  </button>
+  <nav>
+    <ul>
+      <li>
+        <a href="">Főoldal</a>
+      </li>
+      <li>
+        <a href="">Kapcsolat</a>
+      </li>
+      <li>
+        <a href="">Webshop</a>
+      </li>
+      <li>
+        <a class="fa fa-shopping-cart" href=""></a>
+      </li>
+    </ul>
+  </nav>
+  
 </div>
 
+<div class="row">
+  <div class="col2">
+      <h1>Nyíl utcai Piramis<br>italkereskedés</h1>
+      <p>Debrecen városában a Nyíl utcában található italkereskedés nagy<br> választékkal és kedvező árakkal várja állandó és új vásárlóit!</p>
+      <a href="" class="fedezdfel">&#8618; Tudj meg többet! &#8617;</a>
+  </div>
+  <div class="col2">
+      <img src="kepek/boltkep.PNG">
+    <!-- Boltról egy képet ide beszúrni nagy legyen  videó: https://youtu.be/yQimoqo0-7g?t=1066 -->
+  </div>
+</div>
 
+<!-- Konténer vége -->
+</div>
+<!-- fejléc vége -->
+</div>
     
+
+<!-- Kategóriák -->
+<div class="kategoriak">
+  <div class="kontenerkategoriak">
+  <div class="row">
+    <div class="col3">
+      <img src="kepek/starohirdmeretezve.jpg">
+    </div>
+    <div class="col3">
+    <img src="kepek/borsodihirdmeretezve.jpg">
+    </div>
+    <div class="col3">
+    <img src="kepek/cocahirdmeretezve.jpg">
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Akciók -->
+
+<div class="kontenerkategoriak">
+  <h2 class="akcio">Akciók</h2>
+  <div class="row">
+    <div class="col4">
+      <img src="kepek/dobkobmeretezve.jpg">
+      <h4>Dob. Kőbányai Tálcára darabja</h4>
+      <p>230 FT</p>
+    </div>
+    <div class="col4">
+      <img src="kepek/uvegborsmretezve.jpg">
+      <h4>Borsodi sör üveges 20 db-tól darabja csak</h4>
+      <p>205 FT</p>
+    </div>    <div class="col4">
+      <img src="kepek/uvegsopmeretezve.jpg">
+      <h4>Soproni sör üveges 20 db-tól darabja csak</h4>
+      <p>200 FT</p>
+    </div>    <div class="col4">
+      <img src="kepek/jim1meretezve.jpg">
+      <h4>Jim Beam 4L vásárlása esetén</h4>
+      <p> 1000 Ft Akció</p>
+    </div>
+  </div>
+</div>
+
+<!-- Speciális akció -->
+
+<div class="superakcio">
+  <div class="kontenerkategoriak">
+    <div class="row">
+      <div class="col2">
+        <img src="kepek/royalhirdmeretezve.jpg" class="akciokep">
+      </div>
+      <div class="col2">
+        <h1>1500 FT KEDVEZMÉNY!</h1>
+        <small>10 Liter bármilyen minőségi ital vásárlása esetén 1500 Ft kedvezmény jár a készlet erejéig</small>
+        <a href="" class="fedezdfel">&#8618; Vásárolj Most! &#8617;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Lábléc -->
+
+<div class="lablec">
+  <div class="kontenerfejlec">
+    <div class="row">
+      <div class="lableccol1">
+          <img src="kepek/pirlogo1.png">
+      </div>
+    </div>
+
+  </div>
+</div>
+
 </body>
 </html>
