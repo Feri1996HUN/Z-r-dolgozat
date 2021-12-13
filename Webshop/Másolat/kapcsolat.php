@@ -67,7 +67,7 @@
     <p></p>
     <p></p>
     <div class="container-fluid text-left">
-    <div class="row" style="heigth: 450px">
+    <div class="row" style="height: 450px">
         <div class="col-sm" >
         <div class="jumbotron bg-warning">
             <h2><b>Piramis Italkereskedés Nonprofit Kft. </b></h2>

@@ -18,7 +18,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webshop</title>
+    <title>Piramis főoldal</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,16 +40,22 @@
   <nav>
     <ul>
       <li>
-        <a href="">Főoldal</a>
+        <a href="index.php">Főoldal</a>
       </li>
       <li>
-        <a href="">Kapcsolat</a>
+        <a href="kapcsolat.php">Kapcsolat</a>
       </li>
       <li>
-        <a href="">Webshop</a>
+        <a href="bejelentkezes.php">Bejelentkezés</a>
       </li>
       <li>
-        <a class="fa fa-shopping-cart" href=""></a>
+        <a href="regiszt.php">Regisztráció</a>
+      </li>
+      <li>
+        <a href="webshop.php">Webshop</a>
+      </li>
+      <li>
+        <a class="fa fa-shopping-cart" href="webshop.php"></a>
       </li>
     </ul>
   </nav>
@@ -60,7 +66,7 @@
   <div class="col2">
       <h1>Nyíl utcai Piramis<br>italkereskedés</h1>
       <p>Debrecen városában a Nyíl utcában található italkereskedés nagy<br> választékkal és kedvező árakkal várja állandó és új vásárlóit!</p>
-      <a href="" class="fedezdfel">&#8618; Tudj meg többet! &#8617;</a>
+      <a href="kapcsolat.php" class="fedezdfel">&#8618; Tudj meg többet! &#8617;</a>
   </div>
   <div class="col2">
       <img src="kepek/boltkep.PNG">

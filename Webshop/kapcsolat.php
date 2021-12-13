@@ -18,74 +18,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webshop</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Piramis Kapcsolat</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<!-- Fejlléc -->
+<div class="fejlec">
 
-<!-- Jumbotron fejléc -->
+<!-- Konténer -->
+<div class="kontenerfejlec">
 
-<body style="background-color:red;">
-    <div class="container-fluid text-center">
-        <div class="jumbotron bg-warning">
-            <h1><b>PIRAMIS ITALKERESKEDÉS</b></h1>
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">
+    <img src="kepek/pirlogo1.png" width="125px">
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <a href="index.php">Főoldal</a>
+      </li>
+      <li>
+        <a href="kapcsolat.php">Kapcsolat</a>
+      </li>
+      <li>
+        <a href="bejelentkezes.php">Bejelentkezés</a>
+      </li>
+      <li>
+        <a href="regiszt.php">Regisztráció</a>
+      </li>
+      <li>
+        <a href="webshop.php">Webshop</a>
+      </li>
+      <li>
+        <a class="fa fa-shopping-cart" href="webshop.php"></a>
+      </li>
+    </ul>
+  </nav>
+  
+</div>
 
-            <!-- MENÜ -->
+<div class="row">
+  <div class="col2">
+      <h1>Kapcsolat:</h1>
+      <h2>Piramis Italkereskedés Nonprofit Kft.</h2>
+      <p>&#8658; Telefonszám: 11/123-456</p>
+      <p>&#8658; E-mail: piramis@nemletezo.com</p>
+      <p>&#8658; Cím: 4028 Debrecen Nyíl utca 118.</p>
+      <p><img src="kepek/boltkep.PNG"></p>
+  </div>
+  <div class="col2">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.482601487894!2d21.63343151487606!3d47.538935300644276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470dddd24d1f07%3A0xb10b546d3675aef1!2sDebrecen%2C%20Ny%C3%ADl%20u.%20118%2C%204028!5e0!3m2!1shu!2shu!4v1638369295787!5m2!1shu!2shu" width="100%" height="565px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
 
-            <p><nav class="navbar navbar-expand-lg navbar-light bg-warning">
+<!-- Konténer vége -->
+</div>
+<!-- fejléc vége -->
+</div>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                        MENÜ
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item " href="index.php">Főoldal</a>
-                        <a class="dropdown-item disabled" href="kapcsolat.php">Kapcsolat</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="webshop.php">WEBSHOP</a>
-                        <a class="dropdown-item" href="regiszt.php">Bejelentkezés/Regisztráció</a>
-                    </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Kosár:</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="kosar" name="kosar">0</a>
-                    </li>
-                </ul>
-                </div>
-            </nav></p>
-        </div> 
+<!-- Lábléc -->
+
+<div class="lablec">
+  <div class="kontenerfejlec">
+    <div class="row">
+      <div class="lableccol1">
+          <img src="kepek/pirlogo1.png">
+      </div>
     </div>
-    <p></p>
-    <p></p>
-    <p></p>
-    <div class="container-fluid text-left">
-    <div class="row" style="heigth: 450px">
-        <div class="col-sm" >
-        <div class="jumbotron bg-warning">
-            <h2><b>Piramis Italkereskedés Nonprofit Kft. </b></h2>
-            <p></p>
-            <h2><b>KAPCSOLAT: </b></h2>
-            <p></p>
-            <h2><b>Telefonszám: 11/123-456 </b></h2>
-            <p></p>
-            <h2><b>E-mail: piramis@nemletezo.com </b></h2>
-            <p></p>
-            <h2><b>Cím: 4028 Debrecen Nyíl utca 118. </b></h2>
-        </div>
-        </div>
-        <div class="col-sm">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2693.482601487894!2d21.63343151487606!3d47.538935300644276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47470dddd24d1f07%3A0xb10b546d3675aef1!2sDebrecen%2C%20Ny%C3%ADl%20u.%20118%2C%204028!5e0!3m2!1shu!2shu!4v1638369295787!5m2!1shu!2shu" width="650" height="390" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        
-    </div>
-    </div> 
-    </div>
+
+  </div>
+</div>
+
 </body>
 </html>

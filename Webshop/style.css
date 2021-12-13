@@ -154,4 +154,11 @@ h4{
 .lablec{
     background: black;
     padding: 60px 0 20px;
+    min-height: 296px;
 }
+
+.jumbotron{
+    padding: 50px;
+    padding-top: 100px;
+}
+
